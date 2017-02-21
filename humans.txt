@@ -1,0 +1,15 @@
+/* ABIMIS */
+/* humanstxt.org */
+
+/* TEAM */
+Your title: Aterrae | Digital Growth
+Site: www.aterrae.com
+Twitter: @aterraeofficial
+Location: Rubano (Padova), Italy
+
+
+/* SITE */
+Last update: 2017/02/16
+Standards: HTML5, CSS3, ES6
+Components: SASS, Animation-SASS, jQuery, React, GSAP
+Software: Atom

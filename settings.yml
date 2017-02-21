@@ -1,0 +1,69 @@
+# Set the port where we can run your localhost
+# e.g. localhost:8000
+# Here you can easily edit this variable to change the server options
+PORT: 8000
+
+# Here you say how many versions you want to support with autoprefixer
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie >= 9"
+
+HTML:
+  # Here is the part where you can set the paths for Handlebars
+  sourcePath:
+    - "src/{pages,partials,data,helpers}/**/*"
+  pages:
+    - "src/pages/*.html"
+  partials:
+    - "src/partials/**/*.hbs"
+  data:
+    - "src/data/**/*.json"
+  helpers:
+    - "src/helpers/*.js"
+  destPath:
+    - "dist"
+
+SASS:
+  # Here is the part where you can set the paths for SASS
+  sourcePath:
+    - "src/scss/**/*.scss"
+  libsPath:
+    # Here is the path that defines where the SASS libraries are taken from
+    - "bower_components/abimis-webkit/scss"
+    - "bower_components/animate-sass"
+  destPath:
+    - "dist/css"
+
+JSLIBS:
+  # Here is the part where you can set the paths for yours JS Libs
+  sourceFile:
+    # Some library that we need to let you experiment with our ABIMIS JS
+    - "bower_components/jquery/dist/jquery.js"
+    # Our amazing ABIMIS file that let you making amazing tricks
+    - "bower_components/abimis-webkit/js/abimis.min.js"
+  destFile:
+    - "libs.js"
+  destPath:
+    - "dist/js"
+
+JSAPP:
+  # Here is the part where you can set the paths for JSX
+  sourceFile:
+    - "src/jsx/app.jsx"
+  destFile:
+    - "app.js"
+  destPath:
+    - "dist/js"
+
+ASSETS:
+  # Here is the part where you can set the paths for Assets
+  sourcePath:
+    - "src/assets/**/*"
+    - "!src/assets/img"
+    - "!src/assets/img/**"
+  destPath:
+    - "dist/assets"
+  imagesSourcePath:
+    - "src/assets/img/**/*"
+  imagesDestPath:
+    - "dist/assets/img"
