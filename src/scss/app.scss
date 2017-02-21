@@ -3,7 +3,13 @@
 @import 'settings';
 @import 'abimis';
 // These files are used by Animate-SASS
-@import 'animate-settings';
-@import 'animate';
-// Remove the following file when you start your work
-@import "placeholder";
+// @import 'animate-settings';
+// @import 'animate';
+
+@import "fixes";
+@import "components/fab";
+@import "components/sidenav";
+
+body {
+    background-color: $fog;
+}

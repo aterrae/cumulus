@@ -1,0 +1,9 @@
+.breadcrumb {
+    li {
+        &:last-child{
+            &::after {
+                display: none;
+            }
+        }
+    }
+}

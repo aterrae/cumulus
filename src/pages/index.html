@@ -83,31 +83,19 @@ Copyright © 2017 Aterrae | Digital Growth.
 
 <body>
 
-    <header>
-        <nav></nav>
-    </header>
-
-    <section id="root">
-    </section>
-
-    <section class="full-height-slide background">
-        <div class="container v-align">
-            <div class="card card--balanced card--elevation-5 text-align--center phone-up-1of1 phone-up-center lap-up-2of3 desk-1of2 placeholder">
-                <div class="placeholder__container">
-                    <h1>Welcome to Abimis</h1>
-                    <div class="placeholder__stroke"></div>
-                    <h4>The smartest web framework yet</h4>
-                    <p>The Abimis framework is the result of the work made at <strong>Aterrae, Digital Growth</strong> with the aim to make a functional, optimized and scalable frontend framework</p>
-                    <a href="https://abimis.aterrae.com" target="_blank" class="placeholder__button button button--round">view documentation</a>
-                </div>
-            </div>
+    <div class="grid full-height-slide">
+        {{> sidenav}}
+        <div class="grid__cell lap-up-3of4 desk-wide-4of5 padding-right--big">
+            {{> breadcrumb}}
+            {{> card}}
         </div>
-    </section>
-
-    <footer></footer>
-
+        <div class="grid__cell">
+            <a href="#" class="button button--circle button--material fab"><i class="fa fa-cloud-upload" aria-hidden="true"></i></a>
+        </div>
+    </div>
 
     <!-- SCRIPT VARI -->
+    <script src="https://use.fontawesome.com/5ffb5eb6b4.js"></script>
     <script src="/js/libs.js"></script>
     <script src="/js/app.js"></script>
 </body>
