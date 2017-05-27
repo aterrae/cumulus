@@ -1,5 +1,5 @@
 .DS_Store
 npm-debug.log
+favicons-temp.json
 node_modules
-bower_components
 dist

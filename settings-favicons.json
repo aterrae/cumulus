@@ -1,0 +1,89 @@
+{
+  "masterPicture": "brand/logo.png",
+  "dest": "src/assets/favicons",
+  "iconsPath": "/assets/favicons",
+  "partialName": "favicons.hbs",
+  "partialDest" : "src/partials",
+  "design": {
+    "desktop_browser": {},
+    "ios": {
+      "picture_aspect": "background_and_margin",
+      "margin": "8px",
+      "background_color": "#59e0b3",
+      "app_name": "Abimis",
+      "assets": {
+        "ios6_and_prior_icons": false,
+        "ios7_and_later_icons": false,
+        "precomposed_icons": false,
+        "declare_only_default_icon": true
+      }
+    },
+    "windows": {
+      "picture_aspect": "no_change",
+      "background_color": "#59e0b3",
+      "app_name": "Abimis",
+      "assets": {
+        "windows_80_ie_10_tile": true,
+        "windows_10_ie_11_edge_tiles": {
+          "small": false,
+          "medium": true,
+          "big": false,
+          "rectangle": false
+        }
+      }
+    },
+    "firefox_app": {
+      "picture_aspect": "circle",
+      "keep_picture_in_circle": "false",
+      "circle_inner_margin": "8px",
+      "background_color": "#59e0b3",
+      "manifest": {
+        "app_name": "Abimis",
+        "app_description": "Now you're coding with power",
+        "developer_name": "Aterrae | Digital Growth",
+        "developer_url": "https://abimis.aterrae.com"
+      }
+    },
+    "android_chrome": {
+      "picture_aspect": "shadow",
+      "manifest": {
+        "name": "Abimis",
+        "display": "browser",
+        "start_url": ""
+      },
+      "assets": {
+        "legacy_icon": false,
+        "low_resolution_icons": false
+      },
+      "theme_color": "#59e0b3"
+    },
+    "safari_pinned_tab": {
+      "picture_aspect": "black_and_white",
+      "threshold": 75,
+      "theme_color": "#59e0b3"
+    },
+    "coast": {
+      "picture_aspect": "background_and_margin",
+      "background_color": "#59e0b3",
+      "margin": "8px"
+    },
+    "open_graph": {
+      "picture_aspect": "background_and_margin",
+			"background_color": "#59e0b3",
+			"margin": "8px",
+			"ratio": "1.91:1"
+    },
+    "yandex_browser": {
+      "background_color": "#59e0b3",
+      "manifest": {
+        "show_title": true,
+        "version": "1.0"
+      }
+    }
+  },
+  "settings": {
+    "compression": "3",
+    "scaling_algorithm": "Mitchell"
+  },
+  "versioning": false
+}

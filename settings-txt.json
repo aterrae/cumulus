@@ -1,0 +1,25 @@
+{
+  "HUMANS": {
+    "team": [
+      "Your title: This website was developed using Abimis Framework",
+      "Site: abimis.aterrae.com",
+      "Twitter: @aterraeofficial",
+      "Location: Rubano (Padova), Italy"
+    ],
+    "thanks": [
+      "Aterrae | Digital Growth (https://aterrae.com)"
+    ],
+    "site": [
+      "Last update: 2017/02/16",
+      "Standards: HTML5, CSS3, ES6",
+      "Components: SASS, Animation-SASS, jQuery, React, GSAP",
+      "Software: Atom"
+    ],
+    "note": "Made with plenty of ❤️ by two guys from the Aterrae team in Rubano (Padova), Italy"
+  },
+  "ROBOTS": {
+    "useragent": "*",
+    "allow": [],
+    "disallow": []
+  }
+}

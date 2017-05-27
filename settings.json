@@ -1,0 +1,68 @@
+{
+  "PORT": 8000,
+  "COMPATIBILITY": {
+    "browsers": [
+      "last 2 versions",
+      "ie >= 10"
+    ],
+    "ignore": [
+      "rem"
+    ],
+    "ignoreFiles": [
+      "**/_animate-settings.scss"
+    ]
+  },
+  "HTML": {
+    "sourcePath": [
+      "src/{pages,partials,data,helpers}/**/*"
+    ],
+    "pages": [
+      "src/pages/*.html"
+    ],
+    "partials": [
+      "src/partials/**/*.hbs"
+    ],
+    "data": [
+      "src/data/**/*.json"
+    ],
+    "helpers": [
+      "src/helpers/*.js"
+    ],
+    "destPath": "dist"
+  },
+  "SASS": {
+    "sourcePath": [
+      "src/scss/**/*.scss"
+    ],
+    "libPaths": [
+      "node_modules/abimis-webkit/scss",
+      "node_modules/animate-sass"
+    ],
+    "destPath": "dist/css"
+  },
+  "JSLIBS": {
+    "sourceFiles": [
+      "node_modules/jquery/dist/jquery.js",
+      "node_modules/abimis-webkit/js/abimis.min.js"
+    ],
+    "destFile": "libs.js",
+    "destPath": "dist/js"
+  },
+  "JSAPP": {
+    "sourceFile": "src/js/app.js",
+    "destFile": "app.js",
+    "destPath": "dist/js"
+  },
+  "ASSETS": {
+    "sourcePath": [
+      "src/assets/**/*",
+      "!src/assets/img",
+      "!src/assets/img/**"
+    ],
+    "destPath": "dist/assets",
+    "imagesSourcePath": [
+      "src/assets/img/**/*"
+    ],
+    "imagesDestPath": "dist/assets/img"
+  }
+}
